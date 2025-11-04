@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { Star } from 'lucide-react';
-import { ProductActions } from '@/app/components/products/productButton/page';
+import ProductActions  from '@/app/components/products/productButton/page';
 
 interface Color {
   name: string;

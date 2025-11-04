@@ -7,7 +7,7 @@ interface ProductActionsProps {
   onCheckout: () => void;
 }
 
-export function ProductActions({ 
+export  default function ProductActions({ 
   onAddToCart, 
   onCheckout 
 }: ProductActionsProps): React.ReactElement {
