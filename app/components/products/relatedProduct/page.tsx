@@ -54,7 +54,6 @@ export default function RelatedProducts() {
 
   return (
     <div className="max-w-[1512px] mx-auto px-8 py-12">
-      {/* You can use the ProductGrid multiple times */}
       <ProductGrid 
         products={sampleProducts} 
         title="Related Products"

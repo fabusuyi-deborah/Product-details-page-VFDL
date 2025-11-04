@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { Star } from 'lucide-react';
 import { ProductProps } from '@/app/types/types';
 
-interface ProductCardProps {
+export interface ProductCardProps {
   product: ProductProps;
 }
 
