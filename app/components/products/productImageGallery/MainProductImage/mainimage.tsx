@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { ChevronLeft, ChevronRight, Share2, Heart } from 'lucide-react';
-import ProductThumbnail from '@/app/components/products/productImageGallery/productThumbnails/page';
+import ProductThumbnail from '@/app/components/products/productImageGallery/productThumbnails/thumbnails';
 
 interface ProductImageGalleryProps {
   images: string[];
