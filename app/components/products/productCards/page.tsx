@@ -1,23 +1,25 @@
 "use client";
-import React from 'react';
-import ProductCard from '@/app/components/products/productCard/page';
-import { ProductProps } from '@/app/types/types';
-import Link from 'next/link';
+import React from "react";
+import ProductCard from "@/app/components/products/productCard/productcard";
+import { ProductProps } from "@/app/types/types";
+import Link from "next/link";
 
-interface ProductGridProps {
+export interface ProductGridProps {
   products: ProductProps[];
   title?: string;
   viewAllLink?: string;
 }
 
-export default function ProductGrid({ products, title, viewAllLink }: ProductGridProps): React.ReactElement {
+export default function ProductGrid({
+  products,
+  title,
+  viewAllLink,
+}: ProductGridProps): React.ReactElement {
   return (
     <section className="w-full">
       {title && (
         <div className="flex justify-between items-center mb-6">
-          <h2 className="text-2xl font-bold text-gray-900">
-            {title}
-          </h2>
+          <h2 className="text-2xl font-bold text-gray-900">{title}</h2>
           {viewAllLink && (
             <Link
               href={viewAllLink}
