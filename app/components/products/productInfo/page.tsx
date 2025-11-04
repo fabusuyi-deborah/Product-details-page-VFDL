@@ -26,7 +26,7 @@ interface ProductInfoProps {
   onSizeChange: (size: string) => void;
 }
 
-export function ProductInfo({
+export default function ProductInfo({
   brand,
   name,
   originalPrice,

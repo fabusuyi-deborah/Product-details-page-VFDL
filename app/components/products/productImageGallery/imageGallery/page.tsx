@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
-import { ProductImageGallery } from '../MainProductImage/page';
-import { ProductInfo } from '@/app/components/products/productInfo/page';
+import ProductImageGallery from '../MainProductImage/page';
+import ProductInfo  from '@/app/components/products/productInfo/page';
 
 
 

@@ -9,7 +9,7 @@ interface ProductImageGalleryProps {
   productName: string;
 }
 
-export function ProductImageGallery({ 
+export  default function ProductImageGallery({ 
   images, 
   productName 
 }: ProductImageGalleryProps): React.ReactElement {

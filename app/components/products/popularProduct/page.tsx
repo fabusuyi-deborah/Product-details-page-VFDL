@@ -1,5 +1,5 @@
 "use client";
-import { ProductGrid } from '@/app/components/products/productCards/page';
+import ProductGrid  from '@/app/components/products/productCards/page';
 import { ProductProps } from '@/app/types/types';
 import React from 'react';
 

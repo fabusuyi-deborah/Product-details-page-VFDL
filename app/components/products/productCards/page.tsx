@@ -10,7 +10,7 @@ interface ProductGridProps {
   viewAllLink?: string;
 }
 
-export function ProductGrid({ products, title, viewAllLink }: ProductGridProps): React.ReactElement {
+export default function ProductGrid({ products, title, viewAllLink }: ProductGridProps): React.ReactElement {
   return (
     <section className="w-full">
       {title && (
